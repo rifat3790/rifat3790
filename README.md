@@ -19,6 +19,6 @@ I build scalable web applications, Shopify stores, SaaS products and premium use
 
 ### 🌐 Connect with Me
 
-- Portfolio: https://yourportfolio.com
-- LinkedIn: https://linkedin.com/in/yourprofile
-- Email: your@email.com
+- Portfolio: https://rifat-portfolio-brown.vercel.app/
+- LinkedIn: https://www.linkedin.com/in/md-refayet-hossen-62b796236/
+- Email: mdrifayethossen@gmail.com
