@@ -1,12 +1,13 @@
 <div align="center">
 
-  <!-- Dynamic Typing Header Banner -->
+  <!-- Bulletproof Animated Typing SVG Header -->
   <a href="https://rifat-portfolio-brown.vercel.app/">
-    <img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=800&size=30&duration=2400&pause=800&color=0A66C2&center=true&vCenter=true&multiline=false&width=750&height=55&lines=👋+Hi,+I'm+Md.+Refayet+Hossen;🚀+Senior+Full+Stack+Web+Developer;🛒+Shopify+%26+E-Commerce+Architect;⚡+Next.js+15+%7C+TypeScript+%7C+Node.js;💎+Crafting+Luxury+%26+High-Converting+Web+Apps" alt="Typing Header" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&duration=2500&pause=1000&color=0A66C2&center=true&vCenter=true&multiline=false&width=750&height=60&lines=Md.+Refayet+Hossen;Senior+Full+Stack+Developer;Shopify+%26+E-Commerce+Architect;Next.js+15+%7C+TypeScript+%7C+Node.js;Crafting+Luxury+Web+Apps" alt="Md. Refayet Hossen - Full Stack Developer" />
   </a>
 
+  <h1 align="center">Md. Refayet Hossen</h1>
   <p align="center">
-    <b>Pioneering Digital Excellence • High-Performance Web &amp; E-Commerce Architecture</b>
+    <b>Senior Full Stack Developer • Shopify E-Commerce Architect • SaaS Builder</b>
   </p>
 
   <!-- Quick Social Connect Badges -->
@@ -29,15 +30,15 @@
 
 <hr />
 
-## 👑 Executive Summary
+## 👑 Executive Profile Summary
 
 ```yaml
 Developer: Md. Refayet Hossen
 Role: Senior Full Stack Developer & Shopify E-Commerce Architect
-Core Technologies: Next.js 15, React, TypeScript, Node.js, Express, MongoDB, MySQL, Shopify Liquid
-Specialties: Headless Commerce, Custom Shopify Liquid Themes, SaaS Applications, High-Speed APIs
+Core Stack: Next.js 15, React, TypeScript, Node.js, Express, MongoDB, MySQL, Shopify Liquid
+Specialization: Headless Commerce, Custom Liquid Themes, SaaS Applications, High-Speed APIs
 Portfolio: https://rifat-portfolio-brown.vercel.app/
-Contact: mdrifayethossen@gmail.com
+Contact Email: mdrifayethossen@gmail.com
 Status: 🚀 Open for Global Remote Roles, Enterprise Freelance & Architect Roles
 ```
 
