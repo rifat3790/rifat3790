@@ -1,189 +1,146 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 320" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 300" width="100%" height="100%">
   <defs>
-    <!-- Gradients -->
-    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <!-- Sharp Modern Dark Slate Background -->
+    <linearGradient id="header-bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#090d16"/>
       <stop offset="50%" stop-color="#0f172a"/>
-      <stop offset="100%" stop-color="#050811"/>
+      <stop offset="100%" stop-color="#080c14"/>
     </linearGradient>
 
-    <linearGradient id="border-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <!-- Metallic Gold & Cyan Border Gradient -->
+    <linearGradient id="header-border" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#00f2fe"/>
-      <stop offset="33%" stop-color="#4facfe"/>
-      <stop offset="66%" stop-color="#7000ff"/>
+      <stop offset="50%" stop-color="#38bdf8"/>
+      <stop offset="85%" stop-color="#fbbf24"/>
       <stop offset="100%" stop-color="#d4af37"/>
     </linearGradient>
 
-    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <!-- Metallic Text Gradient for Name -->
+    <linearGradient id="name-grad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="40%" stop-color="#00f2fe"/>
-      <stop offset="80%" stop-color="#38bdf8"/>
-      <stop offset="100%" stop-color="#ffd700"/>
+      <stop offset="50%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
     </linearGradient>
 
-    <linearGradient id="gold-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ffe259"/>
-      <stop offset="100%" stop-color="#ffa751"/>
+    <linearGradient id="sub-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
     </linearGradient>
-
-    <linearGradient id="shopify-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#96bf48"/>
-      <stop offset="100%" stop-color="#4776e6"/>
-    </linearGradient>
-
-    <!-- Glow Filter -->
-    <filter id="neon-glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <filter id="subtle-glow" x="-10%" y="-10%" width="120%" height="120%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <!-- Embedded CSS Animations -->
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&amp;family=Space+Grotesk:wght@500;700&amp;display=swap');
-
-      .bg-rect { fill: url(#bg-grad); rx: 20px; }
-      .border-rect { fill: none; stroke: url(#border-grad); stroke-width: 2.5px; rx: 20px; }
-
-      .title-text {
-        font-family: 'Space Grotesk', 'Plus Jakarta Sans', sans-serif;
-        font-weight: 800;
-        font-size: 42px;
-        fill: url(#text-grad);
-        filter: url(#neon-glow);
-        letter-spacing: 2px;
-      }
-
-      .subtitle-text {
-        font-family: 'Plus Jakarta Sans', sans-serif;
-        font-weight: 600;
-        font-size: 16px;
-        fill: #94a3b8;
-        letter-spacing: 4px;
-        text-transform: uppercase;
-      }
-
-      .tag-text {
-        font-family: 'Plus Jakarta Sans', sans-serif;
-        font-weight: 700;
-        font-size: 13px;
-        fill: #ffffff;
-      }
-
-      /* Animations */
-      @keyframes laserSweep {
-        0% { transform: translateX(-1000px); }
-        100% { transform: translateX(1000px); }
-      }
-
-      @keyframes pulseGlow {
-        0%, 100% { opacity: 0.4; }
-        50% { opacity: 0.9; }
-      }
-
-      @keyframes floatEffect {
-        0%, 100% { transform: translateY(0px); }
-        50% { transform: translateY(-6px); }
-      }
-
-      @keyframes badgeShine {
-        0%, 100% { opacity: 0.8; }
-        50% { opacity: 1; filter: drop-shadow(0 0 8px #00f2fe); }
-      }
-
-      .laser-line {
-        animation: laserSweep 6s infinite linear;
-      }
-
-      .floating-icon {
-        animation: floatEffect 4s ease-in-out infinite;
-      }
-
-      .glowing-orb {
-        animation: pulseGlow 3s ease-in-out infinite;
-      }
-
-      .badge-box {
-        animation: badgeShine 3s ease-in-out infinite;
-      }
-    </style>
   </defs>
 
+  <style>
+    .bg { fill: url(#header-bg); rx: 16px; }
+    .border { fill: none; stroke: url(#header-border); stroke-width: 2px; rx: 16px; }
+
+    /* Ultra Crisp Legible Fonts */
+    .title-name {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-weight: 900;
+      font-size: 40px;
+      fill: url(#name-grad);
+      letter-spacing: 3px;
+    }
+
+    .title-sub {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-weight: 700;
+      font-size: 15px;
+      fill: url(#sub-grad);
+      letter-spacing: 3.5px;
+      text-transform: uppercase;
+    }
+
+    .chip-bg {
+      fill: #1e293b;
+      stroke: #334155;
+      stroke-width: 1.2px;
+      rx: 8px;
+    }
+
+    .chip-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-weight: 700;
+      font-size: 13px;
+      fill: #f1f5f9;
+    }
+  </style>
+
   <!-- Background Base -->
-  <rect class="bg-rect" x="5" y="5" width="940" height="310"/>
+  <rect class="bg" x="5" y="5" width="940" height="290"/>
+  <rect class="border" x="5" y="5" width="940" height="290"/>
 
-  <!-- Glowing Orbs in Background -->
-  <circle class="glowing-orb" cx="150" cy="80" r="100" fill="#00f2fe" opacity="0.15" filter="url(#neon-glow)"/>
-  <circle class="glowing-orb" cx="800" cy="240" r="120" fill="#7000ff" opacity="0.12" filter="url(#neon-glow)"/>
-  <circle class="glowing-orb" cx="500" cy="160" r="90" fill="#d4af37" opacity="0.08" filter="url(#neon-glow)"/>
+  <!-- Top Accent Bar -->
+  <path d="M 5,21 Q 5,5 21,5 L 929,5 Q 945,5 945,21 L 945,12 L 5,12 Z" fill="url(#header-border)"/>
 
-  <!-- Border Frame -->
-  <rect class="border-rect" x="5" y="5" width="940" height="310"/>
-
-  <!-- Header Content -->
+  <!-- Center Content -->
   <g transform="translate(475, 75)" text-anchor="middle">
-    <!-- Top Crown Icon -->
-    <g class="floating-icon" transform="translate(0, -25)">
-      <path d="M-20,5 L-12,-15 L0,-5 L12,-15 L20,5 Z" fill="url(#gold-grad)" filter="url(#subtle-glow)"/>
-      <circle cx="-12" cy="-17" r="2.5" fill="#ffffff"/>
-      <circle cx="0" cy="-7" r="2.5" fill="#ffffff"/>
-      <circle cx="12" cy="-17" r="2.5" fill="#ffffff"/>
+
+    <!-- Crown & Diamond Vector Icon -->
+    <g transform="translate(0, -22)">
+      <path d="M-16,4 L-10,-12 L0,-4 L10,-12 L16,4 Z" fill="#fbbf24" stroke="#d4af37" stroke-width="1"/>
+      <circle cx="-10" cy="-14" r="2" fill="#ffffff"/>
+      <circle cx="0" cy="-6" r="2" fill="#ffffff"/>
+      <circle cx="10" cy="-14" r="2" fill="#ffffff"/>
     </g>
 
-    <!-- Main Title -->
-    <text y="35" class="title-text">MD. REFAYET HOSSEN</text>
+    <!-- Name Text - Crystal Clear High Contrast -->
+    <text y="32" class="title-name">MD. REFAYET HOSSEN</text>
+
+    <!-- Underline Metallic Line -->
+    <line x1="-220" y1="48" x2="220" y2="48" stroke="url(#header-border)" stroke-width="2"/>
 
     <!-- Subtitle -->
-    <text y="70" class="subtitle-text">FULL STACK DEVELOPER • SHOPIFY ARCHITECT • SAAS BUILDER</text>
+    <text y="74" class="title-sub">FULL STACK DEVELOPER • SHOPIFY ARCHITECT • SAAS BUILDER</text>
   </g>
 
   <!-- Divider Line -->
-  <line x1="150" y1="175" x2="800" y2="175" stroke="url(#border-grad)" stroke-width="1.5" opacity="0.6"/>
+  <line x1="80" y1="180" x2="870" y2="180" stroke="#334155" stroke-width="1.5"/>
 
-  <!-- Floating Feature Badges -->
-  <g transform="translate(70, 210)">
-    <!-- Badge 1: Next.js -->
+  <!-- Crisp Tech Badge Chips with SVG Icons -->
+  <g transform="translate(45, 205)">
+
+    <!-- Chip 1: Next.js 15 -->
     <g transform="translate(0, 0)">
-      <rect x="0" y="0" width="180" height="42" rx="10" fill="#0f172a" stroke="#00f2fe" stroke-width="1.2" opacity="0.9"/>
-      <circle cx="25" cy="21" r="7" fill="#00f2fe" filter="url(#subtle-glow)"/>
-      <text x="42" y="26" class="tag-text">Next.js 15 &amp; React</text>
+      <rect class="chip-bg" width="195" height="46" stroke="#38bdf8"/>
+      <!-- Next.js SVG Icon -->
+      <svg x="14" y="11" width="24" height="24" viewBox="0 0 128 128">
+        <circle cx="64" cy="64" r="64" fill="#ffffff"/>
+        <path d="M108 102L50 28H38v72h14V49l45 59h11z" fill="#000000"/>
+        <path d="M86 42h14v30H86z" fill="#000000"/>
+      </svg>
+      <text x="48" y="28" class="chip-text">Next.js 15 &amp; React</text>
     </g>
 
-    <!-- Badge 2: Shopify -->
-    <g transform="translate(200, 0)">
-      <rect x="0" y="0" width="200" height="42" rx="10" fill="#0f172a" stroke="#96bf48" stroke-width="1.2" opacity="0.9"/>
-      <circle cx="25" cy="21" r="7" fill="#96bf48" filter="url(#subtle-glow)"/>
-      <text x="42" y="26" class="tag-text">Shopify Liquid &amp; Store</text>
+    <!-- Chip 2: Shopify Store -->
+    <g transform="translate(215, 0)">
+      <rect class="chip-bg" width="220" height="46" stroke="#96bf48"/>
+      <!-- Shopify SVG Icon -->
+      <svg x="14" y="10" width="24" height="24" viewBox="0 0 50 50">
+        <path d="M39.6 13.5s-2.7-.8-4.4-.3c-1.3.4-1.7 1.2-2.1 2.3-.6 1.7-1.3 4.2-1.9 6.2-.5-1.7-1.6-4.5-3.1-6.1-2.1-2.2-5.4-3.1-8.5-2.2-3.8 1.1-6.3 4.4-6.8 8.3-.4 3.1.5 6.3 2.5 8.7 1.8 2.1 4.5 3.3 7.3 3.3 2 0 4.1-.7 5.7-1.9l.6.9c.4.6 1.1 1 1.8 1h9.4c1.2 0 2.2-1 2.2-2.2V16.3c-.1-1.5-1.2-2.6-2.7-2.8z" fill="#96bf48"/>
+      </svg>
+      <text x="48" y="28" class="chip-text">Shopify Liquid &amp; Store</text>
     </g>
 
-    <!-- Badge 3: TypeScript -->
-    <g transform="translate(420, 0)">
-      <rect x="0" y="0" width="180" height="42" rx="10" fill="#0f172a" stroke="#3178c6" stroke-width="1.2" opacity="0.9"/>
-      <circle cx="25" cy="21" r="7" fill="#3178c6" filter="url(#subtle-glow)"/>
-      <text x="42" y="26" class="tag-text">TypeScript &amp; Node</text>
+    <!-- Chip 3: TypeScript & Node -->
+    <g transform="translate(455, 0)">
+      <rect class="chip-bg" width="195" height="46" stroke="#3178c6"/>
+      <!-- TypeScript SVG Icon -->
+      <svg x="14" y="11" width="24" height="24" viewBox="0 0 100 100">
+        <rect width="100" height="100" rx="15" fill="#3178c6"/>
+        <path d="M58 64c2 3 6 5 11 5 6 0 9-3 9-7 0-11-20-4-20-21 0-8 7-14 18-14 7 0 13 2 17 7l-6 8c-3-3-7-5-11-5-5 0-7 2-7 5 0 10 20 4 20 21 0 9-7 14-19 14-8 0-16-3-20-9l8-8zM24 37h28v11H39v39H24V48H10V37h14z" fill="#ffffff"/>
+      </svg>
+      <text x="48" y="28" class="chip-text">TypeScript &amp; Node</text>
     </g>
 
-    <!-- Badge 4: Luxury Web -->
-    <g transform="translate(620, 0)">
-      <rect x="0" y="0" width="190" height="42" rx="10" fill="#0f172a" stroke="#d4af37" stroke-width="1.2" opacity="0.9"/>
-      <circle cx="25" cy="21" r="7" fill="#d4af37" filter="url(#subtle-glow)"/>
-      <text x="42" y="26" class="tag-text">Luxury UI/UX &amp; SaaS</text>
+    <!-- Chip 4: Luxury Web & SaaS -->
+    <g transform="translate(670, 0)">
+      <rect class="chip-bg" width="190" height="46" stroke="#fbbf24"/>
+      <!-- Diamond SVG Icon -->
+      <svg x="14" y="11" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fbbf24" stroke-width="2">
+        <polygon points="6 3 18 3 22 9 12 21 2 9 6 3"/>
+      </svg>
+      <text x="48" y="28" class="chip-text">Luxury UI &amp; SaaS</text>
     </g>
-  </g>
 
-  <!-- Laser Light Sweep Effect -->
-  <g class="laser-line">
-    <line x1="0" y1="175" x2="150" y2="175" stroke="#00f2fe" stroke-width="3" filter="url(#neon-glow)"/>
   </g>
 </svg>

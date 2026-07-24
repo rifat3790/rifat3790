@@ -1,6 +1,6 @@
 <div align="center">
 
-  <!-- Local Animated Header SVG -->
+  <!-- Local Crisp Animated Header SVG -->
   <a href="https://rifat-portfolio-brown.vercel.app/">
     <img src="assets/header.svg" width="100%" alt="Md. Refayet Hossen - Header Banner" />
   </a>
@@ -32,14 +32,15 @@
 ```yaml
 Name: Md. Refayet Hossen
 Role: Senior Full Stack Developer & Shopify E-Commerce Architect
-Core Competencies: Next.js 15, Shopify Liquid Themes, Headless Commerce, TypeScript, SaaS
-Portfolio: https://rifat-portfolio-brown.vercel.app/
+Core Stack: Next.js 15, React, TypeScript, Node.js, Express, MongoDB, MySQL, Shopify Liquid
+Services: Custom Liquid Theme Engineering, Headless Commerce, SaaS Web Apps
+Live Portfolio: https://rifat-portfolio-brown.vercel.app/
 Contact Email: mdrifayethossen@gmail.com
-Location: Available Globally (Remote / Contract / Full-Time)
+Status: 🚀 Available for High-Ticket E-Commerce, SaaS & Architect Roles
 ```
 
 > **"Pioneering digital excellence through high-performance code and luxury design systems."**
-> I specialize in building custom, high-converting **Shopify storefronts**, **Headless E-Commerce applications**, and **scalable Next.js/React web applications**. From custom Liquid theme engineering to enterprise-grade web applications, I transform client vision into sleek, revenue-generating digital products.
+> I specialize in building custom, high-converting **Shopify storefronts**, **Headless E-Commerce applications**, and **scalable Next.js/React full-stack web applications**. From custom Liquid theme engineering to enterprise-grade web applications, I transform client vision into sleek, revenue-generating digital products.
 
 <br />
 
@@ -48,16 +49,26 @@ Location: Available Globally (Remote / Contract / Full-Time)
 ## 🛒 Shopify & E-Commerce Architecture
 
 <div align="center">
-  <img src="assets/shopify-banner.svg" width="100%" alt="Shopify & E-Commerce Mastery" />
+  <img src="assets/shopify-banner.svg" width="100%" alt="Shopify & E-Commerce Architecture" />
 </div>
 
 <br />
 
-### 🌟 E-Commerce Core Services:
-- 🎨 **Custom Liquid Theme Development**: Pixel-perfect, bespoke themes for luxury and high-ticket brands.
+### 🌟 E-Commerce Core Capabilities:
+- 🎨 **Custom Liquid Theme Engineering**: Pixel-perfect, bespoke Liquid templates tailored for luxury & high-ticket brands.
 - ⚡ **Headless Shopify Commerce**: Combining **Next.js 15** with Shopify Storefront GraphQL API for instant sub-second page loads.
 - 🛠️ **Custom Checkout & App Integration**: Private app integrations, subscription workflows, and custom payment gateways.
 - 📈 **Performance & Speed Tuning**: Optimizing Core Web Vitals to achieve 95+ performance scores and boost conversion rates.
+
+<br />
+
+---
+
+## 💎 Custom Headless Storefront Preview
+
+<div align="center">
+  <img src="assets/shopify-product-card.svg" width="100%" alt="Luxury Shopify Storefront UI Demo" />
+</div>
 
 <br />
 
