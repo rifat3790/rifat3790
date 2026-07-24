@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Md. Refayet Hossen | Full Stack Developer & Shopify Architect</title>
+  <meta name="description" content="Official luxury portfolio of Md. Refayet Hossen. Full-Stack Web Developer & Shopify E-Commerce Specialist crafting high-converting digital products.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Particle Background Canvas -->
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">REFAYET.DEV</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#shopify">Shopify</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#terminal">Terminal</a></li>
+    </ul>
+    <a href="https://www.linkedin.com/in/md-refayet-hossen-62b796236/" target="_blank" class="cta-btn">Connect LinkedIn</a>
+  </nav>
+
+  <div class="container">
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <div class="badge-glow">👑 Luxury Web Engineering &amp; Headless Commerce</div>
+      <h1>Md. Refayet Hossen<br><span>Full Stack &amp; Shopify Architect</span></h1>
+      <p class="hero-subtitle">Creating high-speed Next.js 15 web applications, custom Shopify Liquid themes, and scalable SaaS solutions engineered for global performance.</p>
+      
+      <div class="hero-actions">
+        <a href="https://rifat-portfolio-brown.vercel.app/" target="_blank" class="cta-btn">Live Portfolio ↗</a>
+        <a href="mailto:mdrifayethossen@gmail.com" class="btn-secondary">Hire Me 📧</a>
+      </div>
+    </section>
+
+    <!-- Core Services Grid -->
+    <h2 class="section-title">Core Specializations</h2>
+    <p class="section-subtitle">Delivering high-converting digital solutions with cutting-edge tech stack</p>
+
+    <div class="grid-3" id="skills">
+      <div class="glass-card">
+        <div class="card-icon">⚡</div>
+        <h3>Next.js &amp; Full Stack</h3>
+        <p>Architecting full-stack web applications using Next.js App Router, TypeScript, Node.js, Express, and MongoDB/MySQL database engines.</p>
+      </div>
+
+      <div class="glass-card">
+        <div class="card-icon">🛒</div>
+        <h3>Shopify &amp; E-Commerce</h3>
+        <p>Crafting custom Liquid themes, Headless storefronts (Next.js + Shopify Storefront GraphQL API), app integrations, and speed optimizations.</p>
+      </div>
+
+      <div class="glass-card">
+        <div class="card-icon">💎</div>
+        <h3>Luxury UI/UX &amp; SaaS</h3>
+        <p>Designing glassmorphic dark-mode web experiences with smooth animations, high accessibility, and conversion-focused customer journeys.</p>
+      </div>
+    </div>
+
+    <!-- Terminal Command Line Simulator -->
+    <section id="terminal">
+      <h2 class="section-title">Interactive Terminal</h2>
+      <p class="section-subtitle">Type commands like <span style="color:var(--accent-cyan)">help</span>, <span style="color:var(--accent-shopify)">shopify</span>, or <span style="color:var(--accent-gold)">skills</span> to inspect my technical profile</p>
+
+      <div class="terminal-wrapper">
+        <div class="terminal-header">
+          <div class="term-dot dot-red"></div>
+          <div class="term-dot dot-yellow"></div>
+          <div class="term-dot dot-green"></div>
+          <div class="term-title">bash — refayet-dev-v2.0</div>
+        </div>
+
+        <div class="terminal-body">
+          <div>Welcome to <span style="color: var(--accent-cyan); font-weight: bold;">Md. Refayet Hossen</span> interactive terminal!</div>
+          <div>Type <span style="color: var(--accent-gold); font-weight: bold;">help</span> and press Enter to see available commands.</div>
+          <br>
+          <div id="term-output"></div>
+
+          <div class="term-input-line">
+            <span class="term-prompt">visitor@refayet-portfolio:~$</span>
+            <input type="text" id="term-input" class="term-input" placeholder="type help..." autofocus />
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>© 2026 Md. Refayet Hossen. Designed with Luxury Aesthetics &amp; Cutting-Edge Tech.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 280" width="100%" height="100%">
+  <defs>
+    <linearGradient id="tech-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c0a1d"/>
+      <stop offset="50%" stop-color="#120e2e"/>
+      <stop offset="100%" stop-color="#080514"/>
+    </linearGradient>
+
+    <linearGradient id="tech-border" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7000ff"/>
+      <stop offset="50%" stop-color="#00f2fe"/>
+      <stop offset="100%" stop-color="#ff007f"/>
+    </linearGradient>
+
+    <filter id="purple-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&amp;family=Space+Grotesk:wght@700&amp;display=swap');
+
+      .ts-bg { fill: url(#tech-bg); rx: 16px; }
+      .ts-border { fill: none; stroke: url(#tech-border); stroke-width: 2px; rx: 16px; }
+      .ts-header {
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        fill: #00f2fe;
+        filter: url(#purple-glow);
+        letter-spacing: 1.5px;
+      }
+      .pill-box { fill: #1a1638; stroke: #3b3370; stroke-width: 1px; rx: 8px; }
+      .pill-text { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 700; font-size: 13px; fill: #ffffff; }
+      .cat-title { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 700; font-size: 14px; fill: #a78bfa; }
+    </style>
+  </defs>
+
+  <rect class="ts-bg" x="5" y="5" width="940" height="270"/>
+  <rect class="ts-border" x="5" y="5" width="940" height="270"/>
+
+  <text x="475" y="45" class="ts-header" text-anchor="middle">⚡ FULL STACK TECH ECOSYSTEM</text>
+
+  <!-- Row 1: Frontend -->
+  <g transform="translate(35, 75)">
+    <text x="0" y="20" class="cat-title">FRONTEND &amp; UI ARCHITECTURE</text>
+    <g transform="translate(0, 32)">
+      <!-- Pills -->
+      <g transform="translate(0,0)"><rect class="pill-box" width="105" height="34"/><text x="52" y="22" class="pill-text" text-anchor="middle">Next.js 15</text></g>
+      <g transform="translate(115,0)"><rect class="pill-box" width="95" height="34"/><text x="47" y="22" class="pill-text" text-anchor="middle">React.js</text></g>
+      <g transform="translate(220,0)"><rect class="pill-box" width="115" height="34"/><text x="57" y="22" class="pill-text" text-anchor="middle">TypeScript</text></g>
+      <g transform="translate(345,0)"><rect class="pill-box" width="125" height="34"/><text x="62" y="22" class="pill-text" text-anchor="middle">Tailwind CSS</text></g>
+      <g transform="translate(480,0)"><rect class="pill-box" width="115" height="34"/><text x="57" y="22" class="pill-text" text-anchor="middle">JavaScript</text></g>
+      <g transform="translate(605,0)"><rect class="pill-box" width="115" height="34"/><text x="57" y="22" class="pill-text" text-anchor="middle">Redux State</text></g>
+      <g transform="translate(730,0)"><rect class="pill-box" width="145" height="34"/><text x="72" y="22" class="pill-text" text-anchor="middle">HTML5 / CSS3</text></g>
+    </g>
+  </g>
+
+  <!-- Row 2: Backend & Database -->
+  <g transform="translate(35, 170)">
+    <text x="0" y="20" class="cat-title">BACKEND, SHOPIFY &amp; CLOUD DATABASE</text>
+    <g transform="translate(0, 32)">
+      <g transform="translate(0,0)"><rect class="pill-box" width="105" height="34"/><text x="52" y="22" class="pill-text" text-anchor="middle">Node.js</text></g>
+      <g transform="translate(115,0)"><rect class="pill-box" width="115" height="34"/><text x="57" y="22" class="pill-text" text-anchor="middle">Express.js</text></g>
+      <g transform="translate(240,0)"><rect class="pill-box" width="115" height="34"/><text x="57" y="22" class="pill-text" text-anchor="middle">MongoDB</text></g>
+      <g transform="translate(365,0)"><rect class="pill-box" width="95" height="34"/><text x="47" y="22" class="pill-text" text-anchor="middle">MySQL</text></g>
+      <g transform="translate(470,0)"><rect class="pill-box" width="160" height="34"/><text x="80" y="22" class="pill-text" text-anchor="middle">Shopify Liquid</text></g>
+      <g transform="translate(640,0)"><rect class="pill-box" width="115" height="34"/><text x="57" y="22" class="pill-text" text-anchor="middle">Firebase</text></g>
+      <g transform="translate(765,0)"><rect class="pill-box" width="110" height="34"/><text x="55" y="22" class="pill-text" text-anchor="middle">REST &amp; GraphQL</text></g>
+    </g>
+  </g>
+</svg>
