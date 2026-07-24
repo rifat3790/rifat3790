@@ -1,6 +1,6 @@
 <div align="center">
 
-  <!-- Local Crisp Animated Header SVG -->
+  <!-- Executive Header SVG Banner -->
   <a href="https://rifat-portfolio-brown.vercel.app/">
     <img src="assets/header.svg" width="100%" alt="Md. Refayet Hossen - Header Banner" />
   </a>
@@ -27,20 +27,20 @@
 
 <hr />
 
-## 👑 Executive Summary
+## 👑 Executive Profile Summary
 
 ```yaml
 Name: Md. Refayet Hossen
 Role: Senior Full Stack Developer & Shopify E-Commerce Architect
 Core Stack: Next.js 15, React, TypeScript, Node.js, Express, MongoDB, MySQL, Shopify Liquid
-Services: Custom Liquid Theme Engineering, Headless Commerce, SaaS Web Apps
-Live Portfolio: https://rifat-portfolio-brown.vercel.app/
+Specialization: High-Speed Web Applications, Custom Liquid Themes, SaaS Backends
+Portfolio: https://rifat-portfolio-brown.vercel.app/
 Contact Email: mdrifayethossen@gmail.com
-Status: 🚀 Available for High-Ticket E-Commerce, SaaS & Architect Roles
+Status: 🚀 Open for Global Remote Roles, High-Ticket Freelance & Architect Opportunities
 ```
 
 > **"Pioneering digital excellence through high-performance code and luxury design systems."**
-> I specialize in building custom, high-converting **Shopify storefronts**, **Headless E-Commerce applications**, and **scalable Next.js/React full-stack web applications**. From custom Liquid theme engineering to enterprise-grade web applications, I transform client vision into sleek, revenue-generating digital products.
+> I specialize in building custom, high-converting **Shopify storefronts**, **Headless E-Commerce applications**, and **scalable Next.js/React full-stack web applications**. From custom Liquid theme engineering to enterprise-grade web applications, I transform complex client requirements into sleek, revenue-generating digital products.
 
 <br />
 
@@ -64,16 +64,6 @@ Status: 🚀 Available for High-Ticket E-Commerce, SaaS & Architect Roles
 
 ---
 
-## 💎 Custom Headless Storefront Preview
-
-<div align="center">
-  <img src="assets/shopify-product-card.svg" width="100%" alt="Luxury Shopify Storefront UI Demo" />
-</div>
-
-<br />
-
----
-
 ## ⚡ Full Stack Tech Ecosystem
 
 <div align="center">
@@ -84,7 +74,7 @@ Status: 🚀 Available for High-Ticket E-Commerce, SaaS & Architect Roles
 
 ---
 
-## 💎 Core Specializations & Services
+## 💎 Core Specializations & Architecture
 
 <table>
   <tr>
@@ -108,6 +98,29 @@ Status: 🚀 Available for High-Ticket E-Commerce, SaaS & Architect Roles
     </td>
   </tr>
 </table>
+
+<br />
+
+---
+
+## 📊 GitHub Live Analytics
+
+<div align="center">
+  <table border="0">
+    <tr>
+      <td>
+        <img src="https://github-readme-stats.vercel.app/api?username=rifat3790&show_icons=true&theme=tokyonight&hide_border=true&bg_color=050814&title_color=00f2fe&icon_color=00f2fe&text_color=cbd5e1" alt="GitHub Stats" width="400" />
+      </td>
+      <td>
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rifat3790&layout=compact&theme=tokyonight&hide_border=true&bg_color=050814&title_color=00f2fe&text_color=cbd5e1" alt="Top Languages" width="370" />
+      </td>
+    </tr>
+  </table>
+
+  <br />
+
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rifat3790&theme=tokyonight&hide_border=true&background=050814&stroke=00F2FE&alarm=FF5555" alt="GitHub Streak" width="780" />
+</div>
 
 <br />
 

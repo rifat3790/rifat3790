@@ -1,52 +1,50 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 300" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 280" width="100%" height="100%">
   <defs>
-    <!-- Sharp Modern Dark Slate Background -->
-    <linearGradient id="header-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#090d16"/>
-      <stop offset="50%" stop-color="#0f172a"/>
-      <stop offset="100%" stop-color="#080c14"/>
+    <!-- Background Gradient -->
+    <linearGradient id="h-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050814"/>
+      <stop offset="50%" stop-color="#0b1120"/>
+      <stop offset="100%" stop-color="#050711"/>
     </linearGradient>
 
-    <!-- Metallic Gold & Cyan Border Gradient -->
-    <linearGradient id="header-border" x1="0%" y1="0%" x2="100%" y2="0%">
+    <!-- Metallic Border Gradient -->
+    <linearGradient id="h-border" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#00f2fe"/>
-      <stop offset="50%" stop-color="#38bdf8"/>
-      <stop offset="85%" stop-color="#fbbf24"/>
+      <stop offset="40%" stop-color="#38bdf8"/>
+      <stop offset="80%" stop-color="#fbbf24"/>
       <stop offset="100%" stop-color="#d4af37"/>
     </linearGradient>
 
-    <!-- Metallic Text Gradient for Name -->
-    <linearGradient id="name-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="name-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="50%" stop-color="#f8fafc"/>
-      <stop offset="100%" stop-color="#e2e8f0"/>
+      <stop offset="60%" stop-color="#f1f5f9"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
     </linearGradient>
 
-    <linearGradient id="sub-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="sub-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#38bdf8"/>
       <stop offset="100%" stop-color="#fbbf24"/>
     </linearGradient>
   </defs>
 
   <style>
-    .bg { fill: url(#header-bg); rx: 16px; }
-    .border { fill: none; stroke: url(#header-border); stroke-width: 2px; rx: 16px; }
+    .bg { fill: url(#h-bg); rx: 16px; }
+    .border { fill: none; stroke: url(#h-border); stroke-width: 2px; rx: 16px; }
 
-    /* Ultra Crisp Legible Fonts */
     .title-name {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
       font-weight: 900;
-      font-size: 40px;
-      fill: url(#name-grad);
+      font-size: 38px;
+      fill: url(#name-gradient);
       letter-spacing: 3px;
     }
 
     .title-sub {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
       font-weight: 700;
-      font-size: 15px;
-      fill: url(#sub-grad);
-      letter-spacing: 3.5px;
+      font-size: 14px;
+      fill: url(#sub-gradient);
+      letter-spacing: 3px;
       text-transform: uppercase;
     }
 
@@ -61,85 +59,81 @@
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       font-weight: 700;
       font-size: 13px;
-      fill: #f1f5f9;
+      fill: #f8fafc;
     }
   </style>
 
   <!-- Background Base -->
-  <rect class="bg" x="5" y="5" width="940" height="290"/>
-  <rect class="border" x="5" y="5" width="940" height="290"/>
+  <rect class="bg" x="5" y="5" width="940" height="270"/>
+  <rect class="border" x="5" y="5" width="940" height="270"/>
 
   <!-- Top Accent Bar -->
-  <path d="M 5,21 Q 5,5 21,5 L 929,5 Q 945,5 945,21 L 945,12 L 5,12 Z" fill="url(#header-border)"/>
+  <path d="M 5,20 Q 5,5 20,5 L 930,5 Q 945,5 945,20 L 945,10 L 5,10 Z" fill="url(#h-border)"/>
 
   <!-- Center Content -->
-  <g transform="translate(475, 75)" text-anchor="middle">
+  <g transform="translate(475, 68)" text-anchor="middle">
 
-    <!-- Crown & Diamond Vector Icon -->
-    <g transform="translate(0, -22)">
-      <path d="M-16,4 L-10,-12 L0,-4 L10,-12 L16,4 Z" fill="#fbbf24" stroke="#d4af37" stroke-width="1"/>
-      <circle cx="-10" cy="-14" r="2" fill="#ffffff"/>
-      <circle cx="0" cy="-6" r="2" fill="#ffffff"/>
-      <circle cx="10" cy="-14" r="2" fill="#ffffff"/>
+    <!-- Crown Icon -->
+    <g transform="translate(0, -20)">
+      <path d="M-14,4 L-9,-10 L0,-3 L9,-10 L14,4 Z" fill="#fbbf24" stroke="#d4af37" stroke-width="1"/>
+      <circle cx="-9" cy="-12" r="1.8" fill="#ffffff"/>
+      <circle cx="0" cy="-5" r="1.8" fill="#ffffff"/>
+      <circle cx="9" cy="-12" r="1.8" fill="#ffffff"/>
     </g>
 
-    <!-- Name Text - Crystal Clear High Contrast -->
-    <text y="32" class="title-name">MD. REFAYET HOSSEN</text>
+    <!-- Name Text -->
+    <text y="30" class="title-name">MD. REFAYET HOSSEN</text>
 
-    <!-- Underline Metallic Line -->
-    <line x1="-220" y1="48" x2="220" y2="48" stroke="url(#header-border)" stroke-width="2"/>
+    <!-- Line Divider -->
+    <line x1="-200" y1="46" x2="200" y2="46" stroke="url(#h-border)" stroke-width="1.8"/>
 
     <!-- Subtitle -->
-    <text y="74" class="title-sub">FULL STACK DEVELOPER • SHOPIFY ARCHITECT • SAAS BUILDER</text>
+    <text y="70" class="title-sub">FULL STACK DEVELOPER • SHOPIFY ARCHITECT • SAAS BUILDER</text>
   </g>
 
   <!-- Divider Line -->
-  <line x1="80" y1="180" x2="870" y2="180" stroke="#334155" stroke-width="1.5"/>
+  <line x1="80" y1="170" x2="870" y2="170" stroke="#1e293b" stroke-width="1.5"/>
 
-  <!-- Crisp Tech Badge Chips with SVG Icons -->
-  <g transform="translate(45, 205)">
+  <!-- Tech Badge Chips -->
+  <g transform="translate(45, 192)">
 
     <!-- Chip 1: Next.js 15 -->
     <g transform="translate(0, 0)">
-      <rect class="chip-bg" width="195" height="46" stroke="#38bdf8"/>
-      <!-- Next.js SVG Icon -->
-      <svg x="14" y="11" width="24" height="24" viewBox="0 0 128 128">
+      <rect class="chip-bg" width="195" height="44" stroke="#38bdf8"/>
+      <svg x="14" y="10" width="24" height="24" viewBox="0 0 128 128">
         <circle cx="64" cy="64" r="64" fill="#ffffff"/>
         <path d="M108 102L50 28H38v72h14V49l45 59h11z" fill="#000000"/>
         <path d="M86 42h14v30H86z" fill="#000000"/>
       </svg>
-      <text x="48" y="28" class="chip-text">Next.js 15 &amp; React</text>
+      <text x="48" y="27" class="chip-text">Next.js 15 &amp; React</text>
     </g>
 
     <!-- Chip 2: Shopify Store -->
     <g transform="translate(215, 0)">
-      <rect class="chip-bg" width="220" height="46" stroke="#96bf48"/>
-      <!-- Shopify SVG Icon -->
-      <svg x="14" y="10" width="24" height="24" viewBox="0 0 50 50">
+      <rect class="chip-bg" width="220" height="44" stroke="#96bf48"/>
+      <svg x="14" y="9" width="24" height="24" viewBox="0 0 50 50">
         <path d="M39.6 13.5s-2.7-.8-4.4-.3c-1.3.4-1.7 1.2-2.1 2.3-.6 1.7-1.3 4.2-1.9 6.2-.5-1.7-1.6-4.5-3.1-6.1-2.1-2.2-5.4-3.1-8.5-2.2-3.8 1.1-6.3 4.4-6.8 8.3-.4 3.1.5 6.3 2.5 8.7 1.8 2.1 4.5 3.3 7.3 3.3 2 0 4.1-.7 5.7-1.9l.6.9c.4.6 1.1 1 1.8 1h9.4c1.2 0 2.2-1 2.2-2.2V16.3c-.1-1.5-1.2-2.6-2.7-2.8z" fill="#96bf48"/>
       </svg>
-      <text x="48" y="28" class="chip-text">Shopify Liquid &amp; Store</text>
+      <text x="48" y="27" class="chip-text">Shopify Liquid &amp; Store</text>
     </g>
 
     <!-- Chip 3: TypeScript & Node -->
     <g transform="translate(455, 0)">
-      <rect class="chip-bg" width="195" height="46" stroke="#3178c6"/>
-      <!-- TypeScript SVG Icon -->
-      <svg x="14" y="11" width="24" height="24" viewBox="0 0 100 100">
+      <rect class="chip-bg" width="195" height="44" stroke="#3178c6"/>
+      <svg x="14" y="10" width="24" height="24" viewBox="0 0 100 100">
         <rect width="100" height="100" rx="15" fill="#3178c6"/>
         <path d="M58 64c2 3 6 5 11 5 6 0 9-3 9-7 0-11-20-4-20-21 0-8 7-14 18-14 7 0 13 2 17 7l-6 8c-3-3-7-5-11-5-5 0-7 2-7 5 0 10 20 4 20 21 0 9-7 14-19 14-8 0-16-3-20-9l8-8zM24 37h28v11H39v39H24V48H10V37h14z" fill="#ffffff"/>
       </svg>
-      <text x="48" y="28" class="chip-text">TypeScript &amp; Node</text>
+      <text x="48" y="27" class="chip-text">TypeScript &amp; Node</text>
     </g>
 
     <!-- Chip 4: Luxury Web & SaaS -->
     <g transform="translate(670, 0)">
-      <rect class="chip-bg" width="190" height="46" stroke="#fbbf24"/>
-      <!-- Diamond SVG Icon -->
-      <svg x="14" y="11" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fbbf24" stroke-width="2">
+      <rect class="chip-bg" width="190" height="44" stroke="#fbbf24"/>
+      <svg x="14" y="10" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fbbf24" stroke-width="2">
         <polygon points="6 3 18 3 22 9 12 21 2 9 6 3"/>
       </svg>
-      <text x="48" y="28" class="chip-text">Luxury UI &amp; SaaS</text>
+      <text x="48" y="27" class="chip-text">Luxury UI &amp; SaaS</text>
     </g>
 
   </g>
